@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd65f50f-2a25-4a24-8056-b139df53245e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/server-payment/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-payment/src/main/java/com/lkty/payment/LKTYPaymentApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-payment/src/main/java/com/lkty/payment/mapper/IPaymentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-payment/src/main/java/com/lkty/payment/pojo/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-payment/src/main/java/com/lkty/payment/pojo/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-payment/src/main/java/com/lkty/payment/service/ILKTYPaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-payment/src/main/java/com/lkty/payment/service/impl/LKTYPaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-payment/src/main/java/com/lkty/payment/web/controller/LKTYPaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-payment/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -9,6 +18,14 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,11 +45,19 @@
     </option>
   </component>
   <component name="MavenRunner">
+    <option name="skipTests" value="true" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectId" id="1c6fbUHo5xQbjtOPyOIYQmVccqi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -40,6 +65,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -55,6 +81,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="LKTYPaymentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="server-payment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lkty.payment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lkty.payment.LKTYPaymentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.LKTYPaymentApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -67,7 +113,7 @@
       <updated>1589854034522</updated>
       <workItem from="1589854044304" duration="1429000" />
       <workItem from="1589871243194" duration="346000" />
-      <workItem from="1589872971640" duration="892000" />
+      <workItem from="1589872971640" duration="9850000" />
     </task>
     <servers />
   </component>
@@ -86,5 +132,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
